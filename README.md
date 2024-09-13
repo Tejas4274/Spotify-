@@ -34,20 +34,20 @@ Cloud Storage: (Optional) Use AWS S3 or Firebase for hosting media files
 
 3. Set up Environment Variables
 Create a .env file in the server directory with the following details:
-1. CLOUDINARY_NAME 
-2. CLOUDINARY_API
-3. CLOUDINARY_SECRET_KEY
-4. MONGO_URI=your_mongodb_connection_string
-5. JWT_SECRET=your_jwt_secret_key
+    1. CLOUDINARY_NAME 
+    2. CLOUDINARY_API
+    3. CLOUDINARY_SECRET_KEY
+    4. MONGO_URI=your_mongodb_connection_string
+    5. JWT_SECRET=your_jwt_secret_key
 
 4. Run the Application
-Backend:
-1. cd server
-2. npm start
+    Backend:
+    1. cd server
+    2. npm start
 
-Frontend:
-1. cd client
-2. npm start
+    Frontend:
+    1. cd client
+    2. npm start
 
 
 ⚙️ Admin Panel
