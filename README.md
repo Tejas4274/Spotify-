@@ -20,34 +20,34 @@ Cloud Storage: (Optional) Use AWS S3 or Firebase for hosting media files
 🛠️ Installation & Setup
 
 1. Clone the repository
-git clone https://github.com/Tejas4274/spotify-clone.git
-cd spotify-clone
+    1. git clone https://github.com/Tejas4274/spotify-clone.git
+    2. cd spotify-clone
 
 2. Install Dependencies
-For the server:
-cd server
-npm install
+    For the server:
+    1. cd server
+    2. npm install
 
-For the client:
-cd client
-npm install
+    For the client:
+    1. cd client
+    1. npm install
 
 3. Set up Environment Variables
 Create a .env file in the server directory with the following details:
-CLOUDINARY_NAME
-CLOUDINARY_API
-CLOUDINARY_SECRET_KEY
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
+1. CLOUDINARY_NAME 
+2. CLOUDINARY_API
+3. CLOUDINARY_SECRET_KEY
+4. MONGO_URI=your_mongodb_connection_string
+5. JWT_SECRET=your_jwt_secret_key
 
 4. Run the Application
 Backend:
-cd server
-npm start
+1. cd server
+2. npm start
 
 Frontend:
-cd client
-npm start
+1. cd client
+2. npm start
 
 
 ⚙️ Admin Panel
